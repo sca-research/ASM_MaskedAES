@@ -12,7 +12,7 @@ The byte-wise implementation follows a well-known textbook example scheme. As sa
 ### Security Evaluation
 We have performed 1st order standard CRI TVLA test with 1 million traces on an NXP LPC1114 \(Cortex M0\) core. 
 
-![Ttest results](TVLA-Test/Ttest.PNG) 
+![Ttest results](TVLA-Test/Ttest.png) 
 
 Note that according to [the CRI's standard](https://csrc.nist.gov/csrc/media/events/non-invasive-attack-testing-workshop/documents/08_goodwill.pdf), only the same leakage samples show up in both attempts as "leaky" with the same polarity will be counted as leakage.
 
