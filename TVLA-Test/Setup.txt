@@ -1,0 +1,20 @@
+Measurement Setup:
+
+1. LeakyMC_ByteMaskedAES
+Scope: 			Picoscope 2206B
+Sampling Rate: 		8.928MSa/s
+Number of Samples: 	10800
+Time Interval:		1.21ms (Full 10 rounds for 1.55ms)
+Number of Traces:	1M
+Fix Constant:		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Leakage Source:		HD from "ldr r5, [r4, r5]  eors r1, r3" for MC
+
+
+2. CRI_Standard TVLA
+Scope: 			Lecroy WavePro 760Zi-A
+Sampling Rate: 		25MSa/s
+Number of Samples: 	37500
+Time Interval:		1.5ms (Full 10 rounds)
+Number of Traces:	1M
+Fix Constant:		Standard CRI constant
+Leakage Source:		Not found
