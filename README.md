@@ -18,6 +18,12 @@ Note that according to [the CRI's standard](https://csrc.nist.gov/csrc/media/eve
 
 Corresponding experiment setups can be found in [Setup.md](TVLA-Test/Setup.md) .
 
+### Security Evaluation based on simulation
+Simulation results based on our Cortex M0 power simulator [ELMO](https://github.com/bristol-sca/ELMO) have been added to the new directory named "ELMO". Although simulation results are less convincible than realistic acquisition, they can serve as a low-cost tool that eliminates security threats in the early development stage.
+
+![ELMO Ttest results](ELMO/Ttest.png) 
+
+
 Attention: although this one does not show 1st order leakage, this is BY NO MEANS secure by itself! 1st order protection will not defeat 2nd order attack, which is indeed quite easy here.
 
 
