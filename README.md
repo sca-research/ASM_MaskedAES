@@ -19,7 +19,7 @@ Note that according to [the CRI's standard](https://csrc.nist.gov/csrc/media/eve
 Corresponding experiment setups can be found in [Setup.md](TVLA-Test/Setup.md) .
 
 ### Security Evaluation based on simulation
-Simulation results based on our Cortex M0 power simulator [ELMO](https://github.com/bristol-sca/ELMO) have been added to the new directory named "ELMO". Although simulation results are less convincible than realistic acquisition, they can serve as a low-cost tool that eliminates security threats in the early development stage.
+Simulation results based on our Cortex M0-based power simulator [ELMO](https://github.com/bristol-sca/ELMO) have been added to the new directory named "ELMO". 
 
 ![ELMO Ttest results](ELMO/Ttest.png) 
 
