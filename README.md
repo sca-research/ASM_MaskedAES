@@ -1,7 +1,7 @@
 # A Thumb Assembly based Byte-wise Masked AES implementation 
-This projected is funded by the H2020 project **[REASSURE](http://reassure.eu/)**, currently maintaining by Si Gao.
+This projected is currently funded by the ERC CoG SEAL, and is maintained by Si Gao.
  
-The skeleton of this implementation comes from one of Dr. David McCann's [test example for ELMO](https://github.com/bristol-sca/ELMO/tree/master/Examples/FixedvsRandom/MaskedAES_R1). The original version was written in Thumb assembly (GNU syntax), covering only the first round encryption. For various reasons, I have extended it to a full 10-round masked implementation.
+The skeleton of this implementation comes from one of David McCann's [test example for ELMO](https://github.com/bristol-sca/ELMO/tree/master/Examples/FixedvsRandom/MaskedAES_R1). The original version was written in Thumb assembly (GNU syntax), covering only the first round encryption. For various reasons, it was extended to a full 10-round masked implementation.
 
 Unlike other implementations, the purpose of this implementation is to test what kind of leakage a Cortex M0 core could create in practice. This means not only this masked implementation has been tested by TVLA on a realistic M0 core, but also all assembly code has been customized to avoid any unexpected leakage. In other words, this is a "security-first" implementation: you might notice that although it is written in assembly, the encryption latency is not significantly better than [other C-based implementations](https://github.com/gs1989/Masked-AES-Implementation/tree/master/Byte-Masked-AES). 
 
